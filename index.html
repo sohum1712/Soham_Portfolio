@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Soham Vaghela – AI Engineer & Full-Stack Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#about">Skip to content</a>
+
+<nav class="pill-nav" aria-label="Main">
+  <a href="#top" class="flip" id="flip"><b>Soham</b></a>
+  <div class="tools"><button class="theme" id="theme" aria-label="Toggle light and dark theme">☀</button><button class="menu-btn" id="mbtn" aria-expanded="false" aria-controls="menu" aria-label="Open menu">•••</button></div>
+</nav>
+<div class="menu" id="menu"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div>
+
+<header class="hero" id="top">
+  <div class="code-wrap" aria-hidden="true"><div class="code" id="c1"></div><div class="code hot" id="c2"></div></div>
+  <h1 class="title"><span><i>&lt;</i>AI Engineer</span><span>&amp; Full-Stack <i>/&gt;</i></span></h1>
+  <div class="hero-photo" id="hp"><img id="hpi" alt=""></div>
+  <div class="foot"><div class="year">©2026</div><div class="tag">{{ /AI &amp; FULL-STACK DEVELOPMENT<span class="cur"></span> }}</div></div>
+</header>
+
+<section class="about" id="about">
+  <div>
+    <h2 style="font-size:clamp(3.4rem,1.9rem + 6vw,6.6rem)">Hi, I’m Soham.</h2>
+    <div class="role">AI Engineer<br>&amp; Full-Stack<br>Developer.</div>
+    <div class="at">Currently at<b>ProductSquads</b>AI Engineer Intern<br>Hyderabad, India</div>
+  </div>
+  <div class="photo" id="ph"><img alt="Portrait of Soham Vaghela" src="assets/soham.jpg"></div>
+  <div>
+    <p class="lede">I build <b>AI agents</b> and <b>fast, scalable APIs</b>, taking ideas from first prototype to production.</p>
+    <a class="btn" href="#projects">Explore projects <span>↗</span></a>
+    <div class="vid-wrap" id="vidWrap" role="button" tabindex="0" aria-label="Play intro video: Who am I? My story, a developer's journey.">
+      <img class="vid-thumb" src="assets/video-thumb.jpg" alt="Who am I – my story, a developer's journey">
+      <div class="vid-overlay">
+        <div class="vid-play" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        </div>
+        <div class="vid-meta">
+          <span class="vid-label">Who am I?</span>
+          <span class="vid-dur">1:42</span>
+        </div>
+      </div>
+      <div class="vid-modal" id="vidModal" aria-hidden="true">
+        <button class="vid-close" id="vidClose" aria-label="Close video">✕</button>
+        <div class="vid-player-frame">
+          <div class="vid-soon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor" opacity=".3"><path d="M8 5v14l11-7z"/></svg>
+            <p>Video coming soon</p>
+            <span>Replace with your YouTube embed URL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="head"><h2>Tech Stack</h2><p>The tools behind my work.</p></div>
+  <div class="cols">
+    <div class="col"><h3>AI &amp; Cloud</h3><p>LLM integration, agents, deployment</p><div class="chips"><span class="on">LLM APIs</span><span>Groq</span><span>OpenAI</span><span class="on">AI Agents</span><span>Prompt Engineering</span><span>AWS</span><span>Elastic Beanstalk</span><span>Docker</span></div></div>
+    <div class="col"><h3>Languages &amp; Frameworks</h3><p>Backend services, APIs, full-stack builds</p><div class="chips"><span class="on">Python</span><span>TypeScript</span><span>JavaScript</span><span>Java</span><span>C++</span><span class="on">FastAPI</span><span>Flask</span><span>Node.js</span><span>React</span><span>Next.js</span><span>Angular</span><span>Tailwind CSS</span></div></div>
+    <div class="col"><h3>Data, Testing &amp; DevOps</h3><p>Storage, quality, delivery</p><div class="chips"><span class="on">PostgreSQL</span><span>MySQL</span><span>MongoDB</span><span>Supabase</span><span>Firebase</span><span class="on">GitHub Actions</span><span>Playwright</span><span>k6</span><span>Postman</span><span>Git</span></div></div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="head"><h2>Featured<br>Projects</h2><a class="small muted" href="https://github.com/sohum1712" target="_blank" rel="noopener">GitHub ↗</a></div>
+  <p class="muted small" style="max-width:34ch;margin:-36px 0 24px">Independent projects and professional work. Open a folder to explore a project or case study.</p>
+  <div class="folders">
+    <div class="fcard" tabindex="0"><div class="folder"><div class="paper p1">Case study<b>Agent lifecycle</b>Prototype to deployment</div><div class="paper p2">Details<b>Prompt + LLM integration</b></div><div class="paper p3">Team<b>Agile workflow</b></div><div class="front"><h3>AI Agents</h3><span class="go">↗</span></div></div><div class="cap"><span>ProductSquads · Case study</span><b>Read case study ↗</b></div></div>
+    <a class="fcard" href="https://github.com/sohum1712/hire-io" target="_blank" rel="noopener"><div class="folder"><div class="paper p1">Stack<b>FastAPI · Next.js</b>Supabase RLS</div><div class="paper p2">Result<b>&lt;2 s end-to-end</b></div><div class="paper p3">CI<b>Playwright on every PR</b></div><div class="front"><h3>Hire.io</h3><span class="go">↗</span></div></div><div class="cap"><span>AI-powered ATS analyzer</span><b>View project ↗</b></div></a>
+    <a class="fcard" href="https://github.com/sohum1712/zeo-ai" target="_blank" rel="noopener"><div class="folder"><div class="paper p1">Stack<b>Java · Node · WebSockets</b>OpenCV</div><div class="paper p2">Load test<b>200 sessions, &lt;200 ms</b></div><div class="paper p3">Model<b>82% accuracy, 7 classes</b></div><div class="front"><h3>Zeo.ai</h3><span class="go">↗</span></div></div><div class="cap"><span>Emotion-aware companion</span><b>View project ↗</b></div></a>
+    <div class="fcard" tabindex="0"><div class="folder"><div class="paper p1">Latency<b>&lt;1.2 s p95</b>100 concurrent users</div><div class="paper p2">Accuracy<b>87% (+23 pp)</b></div><div class="paper p3">Cloud<b>AWS auto-scaling</b></div><div class="front"><h3>ML Report API</h3><span class="go">↗</span></div></div><div class="cap"><span>Groovy Web · Case study</span><b>Read case study ↗</b></div></div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="head"><h2>Experience.</h2><p>Current work.<br>Back to the foundations.</p></div>
+  <div class="tl" id="tl">
+    <svg aria-hidden="true"><path id="wave"/></svg>
+    <div class="node now"><i class="dot"></i><span class="tagp">Current role</span><div class="when">July 2026 – Present</div><h3>AI Engineer Intern</h3><div class="org">ProductSquads</div><div class="small muted">Hyderabad, India</div><p>Designing, building and iterating on AI agents in an Agile team, from prototype to deployment.</p></div>
+    <div class="node"><i class="dot"></i><div class="when">Dec 2025</div><h3>AWS APAC Architecture</h3><div class="org">Cloud solution design</div><p>Architected an auto-scaling Elastic Beanstalk solution with a cost model and capacity plan.</p></div>
+    <div class="node"><i class="dot"></i><div class="when">May 2025 – June 2025</div><h3>Machine Learning Intern</h3><div class="org">Groovy Web</div><div class="small muted">Vadodara, India</div><p>Shipped a FastAPI microservice on AWS serving ML reports under 1.2 s p95.</p></div>
+    <div class="node"><i class="dot"></i><div class="when">Sept 2023 – May 2027</div><h3>B.Tech, Computer Science</h3><div class="org">Parul University</div><div class="small muted">Vadodara · GPA 8.13 / 10</div><p>DSA, OOP, DBMS, operating systems, networks and system design.</p></div>
+  </div>
+</section>
+
+<section id="achievements">
+  <div class="head"><h2>Recognition.</h2><p>Hackathons, contests, certifications.</p></div>
+  <div class="ach">
+    <div><b>Top 20</b><p>Smart India Hackathon, out of 10,000+ teams (top 0.2%). Team CodeImpact.</p></div>
+    <div><b>300+</b><p>LeetCode and Codeforces problems. Top 15% global contest rating.</p></div>
+    <div><b>Deloitte</b><p>Data Analytics virtual internship: a pipeline on 10,000 rows and 3 executive insights.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact">
+    <div>
+      <h2>Let’s talk.</h2>
+      <p class="muted" style="margin-top:20px;max-width:34ch">Whether it’s a full-time role or a project, my inbox is open.</p>
+      <div class="mailrow"><a href="mailto:sohamvaghela1712@gmail.com">sohamvaghela1712@gmail.com ↗</a><button class="copy" id="copy">Copy</button></div>
+      <div class="links"><a href="https://github.com/sohum1712" target="_blank" rel="noopener">GitHub</a><a href="#contact">LinkedIn</a><a href="#contact">LeetCode</a><a href="tel:+918140494900">+91 81404 94900</a></div>
+    </div>
+    <form id="f">
+      <div><label for="n">Your name</label><input id="n" placeholder="What should I call you?"></div>
+      <div><label for="e">Email address</label><input id="e" type="email" placeholder="you@company.com"></div>
+      <div class="full"><label for="m">What do you have in mind?</label><textarea id="m" rows="4" placeholder="A little about your opportunity or project…"></textarea></div>
+      <div class="full"><button class="btn" type="submit" style="margin-top:0">Create email draft <span>↗</span></button></div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="fgrid">
+    <div><b style="font-size:1.4rem">Soham.</b><div class="small" style="color:#bdbcb6;margin-top:6px">AI Engineer &amp;<br>Full-Stack Developer.</div></div>
+    <nav aria-label="Footer"><span style="color:#bdbcb6;width:100%">Explore</span><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
+    <div><div style="color:#bdbcb6">Get in touch</div><a href="mailto:sohamvaghela1712@gmail.com">sohamvaghela1712@gmail.com ↗</a><div style="color:#bdbcb6;margin-top:14px">© 2026 Soham Vaghela</div></div>
+  </div>
+  <div class="fbottom"><h3>See you around.</h3><a class="small" href="#top">Back to top ↑</a></div>
+  <div class="panel" aria-hidden="true">SOHAM.</div>
+</footer>
+
+<div class="ask"><div class="askp" id="askp"><button data-a="I’m an AI Engineer Intern at ProductSquads in Hyderabad, building and iterating on AI agents.">What do you do now?</button><button data-a="Python first, plus Java, C++, JavaScript and TypeScript. FastAPI, Node.js, React and Next.js on top.">Which languages?</button><button data-a="Hire.io (AI ATS resume analyzer) and Zeo.ai (emotion-aware companion, load-tested to 200 sessions).">What have you built?</button><button data-a="Yes. Email sohamvaghela1712@gmail.com or use the form in Let’s talk.">Open to work?</button><div id="ans">Pick a question.</div></div><button id="askb" aria-expanded="false">Ask about me</button></div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
